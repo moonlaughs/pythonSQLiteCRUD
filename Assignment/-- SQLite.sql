@@ -1,0 +1,8 @@
+-- SQLite
+CREATE TABLE IF NOT EXISTS users(
+    id TEXT UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    PRIMARY KEY (id)
+) WITHOUT ROWID;
+
+SELECT * FROM users
